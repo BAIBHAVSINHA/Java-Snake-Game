@@ -26,3 +26,7 @@ public class Board extends JPanel implements ActionListener {
 
   private final int x[] = new int[ALL_DOTS];
     private final int y[] = new int[ALL_DOTS];
+
+  private int dots;
+    private int apple_x;
+    private int apple_y;
