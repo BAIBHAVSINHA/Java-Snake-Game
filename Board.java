@@ -14,3 +14,5 @@ import java.awt.event.KeyEvent;
 import javax.swing.ImageIcon;
 import javax.swing.JPanel;
 import javax.swing.Timer;
+
+public class Board extends JPanel implements ActionListener {
