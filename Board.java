@@ -42,3 +42,5 @@ private Timer timer;
     private Image ball;
     private Image apple;
     private Image head;
+
+public Board() {
