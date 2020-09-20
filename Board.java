@@ -32,17 +32,18 @@ public class Board extends JPanel implements ActionListener
     private int apple_x;
     private int apple_y;
 
-private boolean leftDirection = false;
+    private boolean leftDirection = false;
     private boolean rightDirection = true;
     private boolean upDirection = false;
     private boolean downDirection = false;
     private boolean inGame = true;
 
-private Timer timer;
+    private Timer timer;
     private Image ball;
     private Image apple;
     private Image head;
 
-public Board() {
-initBoard();
+    public Board()
+    {
+        initBoard();
     }
