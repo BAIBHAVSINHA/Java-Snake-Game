@@ -37,3 +37,8 @@ private boolean leftDirection = false;
     private boolean upDirection = false;
     private boolean downDirection = false;
     private boolean inGame = true;
+
+private Timer timer;
+    private Image ball;
+    private Image apple;
+    private Image head;
