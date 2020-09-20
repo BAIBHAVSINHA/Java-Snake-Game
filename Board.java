@@ -44,3 +44,5 @@ private Timer timer;
     private Image head;
 
 public Board() {
+initBoard();
+    }
