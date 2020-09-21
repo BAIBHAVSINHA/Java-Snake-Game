@@ -47,3 +47,7 @@ public class Board extends JPanel implements ActionListener
     {
         initBoard();
     }
+    private void initBoard()
+    {
+    
+    }
