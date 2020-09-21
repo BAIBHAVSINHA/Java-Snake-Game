@@ -57,3 +57,7 @@ public class Board extends JPanel implements ActionListener
         loadImages();
         initGame();
     }
+private void loadImages() 
+{
+
+}
