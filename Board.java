@@ -92,3 +92,7 @@ public class Board extends JPanel implements ActionListener
          timer = new Timer(DELAY,this);
          timer.start();
    }
+   @Override
+   public void paintComponent(Graphics g)
+   {
+   }
