@@ -80,3 +80,7 @@ public class Board extends JPanel implements ActionListener
         head = iih.getImage();
     }
     
+   private void initGame()
+   {
+       
+   }
