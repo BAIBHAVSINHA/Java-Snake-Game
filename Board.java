@@ -98,3 +98,14 @@ public class Board extends JPanel implements ActionListener
         super.paintComponent(g);
         doDrawing(g);
    }
+private void doDrawing(Graphics g)
+{
+if(inGame)
+{
+g.drawImage(apple,apple_x,apple_y,this);
+for(int z = 0 ; z < dots ; z++)
+{
+
+}
+}
+}
