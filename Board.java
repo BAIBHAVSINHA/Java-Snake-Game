@@ -105,10 +105,23 @@ private void doDrawing(Graphics g)
        g.drawImage(apple,apple_x,apple_y,this);
          for(int z = 0 ; z < dots ; z++)
            {
-              if(z==0)
+              if(z == 0)
                  {
+                    g.drawImage(head,x[z],y[z],this);
+                 }
+              else
+                 {
+                    g.drawImage(ball,x[z],y[z],this);
                  }
            }
-}
-}
+           Toolkit.getDefaultToolkit().sync();
+      }
+      else
+      {
+         gameOver(g);
+      }   
+ }
+ 
+ 
+ 
 }
