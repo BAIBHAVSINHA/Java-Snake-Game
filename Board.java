@@ -121,7 +121,17 @@ private void doDrawing(Graphics g)
          gameOver(g);
       }   
  }
- 
+ private void gameOver(Graphics g) 
+   {
+        
+        String msg = "Game Over";
+        Font small = new Font("Helvetica", Font.BOLD, 14);
+        FontMetrics metr = getFontMetrics(small);
+
+        g.setColor(Color.white);
+        g.setFont(small);
+        g.drawString(msg, (B_WIDTH - metr.stringWidth(msg)) / 2, B_HEIGHT / 2);
+    }
  
  
 }
