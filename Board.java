@@ -150,4 +150,11 @@ private void doDrawing(Graphics g)
         if (leftDirection) {
             x[0] -= DOT_SIZE;
         }
+        if (rightDirection) {
+            x[0] += DOT_SIZE;
+        }
+
+        if (upDirection) {
+            y[0] -= DOT_SIZE;
+        }
 }
