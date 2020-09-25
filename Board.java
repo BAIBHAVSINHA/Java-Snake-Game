@@ -140,4 +140,14 @@ private void doDrawing(Graphics g)
             locateApple();
         }
     }
+ private void move() {
+
+        for (int z = dots; z > 0; z--) {
+            x[z] = x[(z - 1)];
+            y[z] = y[(z - 1)];
+        }
+
+        if (leftDirection) {
+            x[0] -= DOT_SIZE;
+        }
 }
