@@ -157,4 +157,8 @@ private void doDrawing(Graphics g)
         if (upDirection) {
             y[0] -= DOT_SIZE;
         }
+        if (downDirection) {
+            y[0] += DOT_SIZE;
+        }
+    }
 }
