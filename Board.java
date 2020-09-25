@@ -132,6 +132,12 @@ private void doDrawing(Graphics g)
         g.setFont(small);
         g.drawString(msg, (B_WIDTH - metr.stringWidth(msg)) / 2, B_HEIGHT / 2);
     }
- 
- 
+ private void checkApple() {
+
+        if ((x[0] == apple_x) && (y[0] == apple_y)) {
+
+            dots++;
+            locateApple();
+        }
+    }
 }
