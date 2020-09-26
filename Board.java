@@ -228,5 +228,17 @@ private void doDrawing(Graphics g)
                 upDirection = false;
                 downDirection = false;
             }
-            
+            if ((key == KeyEvent.VK_UP) && (!downDirection)) {
+                upDirection = true;
+                rightDirection = false;
+                leftDirection = false;
+            }
+
+            if ((key == KeyEvent.VK_DOWN) && (!upDirection)) {
+                downDirection = true;
+                rightDirection = false;
+                leftDirection = false;
+            }
+        }
+    }
 }
