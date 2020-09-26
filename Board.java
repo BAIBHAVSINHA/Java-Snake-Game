@@ -169,4 +169,25 @@ private void doDrawing(Graphics g)
                 inGame = false;
             }
         }
+        if (y[0] >= B_HEIGHT) {
+            inGame = false;
+        }
+
+        if (y[0] < 0) {
+            inGame = false;
+        }
+
+        if (x[0] >= B_WIDTH) {
+            inGame = false;
+        }
+
+        if (x[0] < 0) {
+            inGame = false;
+        }
+        
+        if (!inGame) {
+            timer.stop();
+        }
+    }
+    
 }
