@@ -161,4 +161,12 @@ private void doDrawing(Graphics g)
             y[0] += DOT_SIZE;
         }
     }
+    private void checkCollision() {
+
+        for (int z = dots; z > 0; z--) {
+
+            if ((z > 4) && (x[0] == x[z]) && (y[0] == y[z])) {
+                inGame = false;
+            }
+        }
 }
