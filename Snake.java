@@ -28,3 +28,7 @@ public class Snake extends JFrame {
         });
     }
 }
+//This is the main class.
+
+setResizable(false);
+pack();
